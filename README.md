@@ -1,5 +1,13 @@
 # nvim-config
 
+
+## Required OS packages
+
+For openSUSE based installation run command:
+```bash
+zypper in ripgrep fd
+```
+
 ## Setup
 
 On Linux the directory is `~/.config/nvim`.

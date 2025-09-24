@@ -7,7 +7,7 @@ return {
   config = function ()
     -- import mason
     local mason = require("mason")
-    
+
     -- import lsp config
     local mason_lspconfig = require("mason-lspconfig")
 
@@ -23,7 +23,7 @@ return {
         },
       },
     })
-    
+
     mason_lspconfig.setup({
       -- list of servers for mason to install
       ensure_installed = {

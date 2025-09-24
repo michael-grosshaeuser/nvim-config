@@ -5,7 +5,7 @@
 
 For openSUSE based installation run command:
 ```bash
-zypper in ripgrep fd
+zypper in tree-sitter ripgrep fd
 ```
 
 ## Setup

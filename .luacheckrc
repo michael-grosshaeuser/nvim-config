@@ -1,3 +1,3 @@
 std = {
-   globals = { ignore vim, }
+   ignore = { vim, }
 }

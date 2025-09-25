@@ -1,3 +1,1 @@
-std = {
-   ignore = { vim, }
-}
+ignore = { vim, }

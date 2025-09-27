@@ -9,6 +9,7 @@ return {
 			markdown = { "markdownlint", "vale" },
 			yaml = { "yamllint" },
 			docker = { "hadolint" },
+			lua = { "luacheck" },
 		}
 
 		local lint_augroup = vim.api.nvim_create_augroup("lint", { clear = true })

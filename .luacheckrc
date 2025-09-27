@@ -1,8 +1,6 @@
-std = {
-   globals = {
-		vim,
-  		lvim, 
-  		reload,
-		--,
-	}
+---@diagnostic disable: lowercase-global
+-- luacheck: ignore 111
+globals = {
+  "vim",
+  "require",
 }

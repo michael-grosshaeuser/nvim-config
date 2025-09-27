@@ -1,1 +1,5 @@
-ignore = { vim, }
+globals = {
+	vim,
+  lvim, 
+  reload,
+}

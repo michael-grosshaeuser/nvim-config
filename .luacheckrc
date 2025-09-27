@@ -1,5 +1,8 @@
-globals = {
-	vim,
-  lvim, 
-  reload,
+std = {
+   globals = {
+		vim,
+  		lvim, 
+  		reload,
+		--,
+	}
 }

@@ -21,3 +21,10 @@ keymap.set("n", "<leader>tx", "<cmd>tabclose<CR>", { desc = "Close current tab" 
 keymap.set("n", "<leader>tn", "<cmd>tabn<CR>", { desc = "Go to next tab" })
 keymap.set("n", "<leader>tp", "<cmd>tabp<CR>", { desc = "Go to previous tab" })
 keymap.set("n", "<leader>tf", "<cmd>tabnew %<CR>", { desc = "Open current buffer in new tab" })
+
+-- set system clipboard
+vim.keymap.set("n", "y", '"+y')
+vim.keymap.set("n", "yy", '"+yy')
+vim.keymap.set("n", "Y", '"+Y')
+vim.keymap.set("x", "y", '"+y')
+vim.keymap.set("x", "Y", '"+Y')

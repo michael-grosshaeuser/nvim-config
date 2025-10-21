@@ -6,16 +6,7 @@ return {
 		---local lazy_status = require("lazy.status") -- to configure lazy pending updates count
 
 		-- luacheck: ignore
-		local colors = {
-			blue = "#65D1FF",
-			green = "#3EFFDC",
-			violet = "#FF61EF",
-			yellow = "#FFDA7B",
-			red = "#FF4A4A",
-			fg = "#c3ccdc",
-			bg = "#112638",
-			inactive_bg = "#2c3043",
-		}
+		local theme = "tokyonight"
 
 		local user_config = {} -- Stores currently applied config
 
